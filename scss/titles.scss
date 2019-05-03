@@ -1,0 +1,26 @@
+@import 'constant';
+
+.title {
+  //display: flex;
+  //padding: 100px 20px 0 0;
+  letter-spacing: 2px;
+  font-size: $text-big;
+  
+  img {
+    height: 200px;
+    width: 200px;  
+  }
+
+  span {
+    font-size: $text-big;
+    align-self: center;
+    text-indent: -55px;
+  }
+}
+
+@media only screen and (max-width : 1024px){
+  .title {
+    justify-content: center;
+    padding: 100px 0 0 0;
+  } 
+}
